@@ -1,0 +1,49 @@
+.mainContent{
+    width: calc(100% - 150px);
+    float: right;
+    .gridStart(repeat(10, 1fr), repeat(5, 1fr));
+    border: 1.5px dashed black;
+    
+    .introText {
+        .gridAlign(1, 2, 1, 6);
+        text-align: center;
+        border: .5px dashed gray;
+        span {
+            font-family: 'Montserrat';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.8rem;
+            color: #957fef;
+        }
+    }
+
+    .introPara1 {
+        p {
+            font-size: 1.6rem;
+            padding-left: 16px;
+        }
+
+        border: .5px dashed gray;
+        .gridAlign(2, 5, 1, 2)
+    }
+
+    .introImg {
+        .gridAlign(2, 5, 2, 5);
+        border: .5px dashed gray;
+        img {
+            padding: 0 1%;
+            width: 100%;
+            max-height: 100%;
+            opacity: .4;
+        }
+    }
+
+    .introPara2 {
+        p {
+            font-size: 1.6rem;
+            padding-right: 16px;
+        }
+
+        .gridAlign(2, 5, 5, 6);
+    }
+}
