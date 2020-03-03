@@ -1,0 +1,27 @@
+.button-style {
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background: #a0979726;
+}
+
+.displayF(@direction, @wrap, @justify, @align) {
+    display: flex;
+    flex-direction: @direction;
+    flex-wrap: @wrap;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.gridStart(@rowTemp, @colTemp) {
+    display: grid;
+    grid-template-rows: @rowTemp;
+    grid-template-columns: @colTemp;
+}
+
+.gridAlign(@rowStart, @rowEnd, @colStart, @colEnd){
+    grid-row-start: @rowStart;
+    grid-row-end: @rowEnd;
+    grid-column-start: @colStart;
+    grid-column-end: @colEnd;
+}

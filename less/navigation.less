@@ -1,0 +1,46 @@
+.header {
+    width: 150px;
+    height: 100vh;
+    margin-left: 5%;
+    background: #7161ef;
+    position: fixed;
+    
+    nav {
+        .displayF(column, wrap, space-around, center);
+              
+        .nav1 {            
+            position: absolute;
+            width: 100%;
+            top: 0;
+            opacity: .2;
+            height: 33vh;
+        }
+        .nav2 {
+            position: absolute;
+            top: 33vh;
+            width: 100%;
+            height: 33vh;
+            opacity: .2;
+        }
+        .nav3 {
+            position: absolute;
+            top: 66vh;
+            width: 100%;
+            height: 34vh;
+            opacity: .2;
+        }
+        .sideNav {
+            position: relative;
+            margin-top: 50px;
+            color: #efd9ce;
+            font-family: 'Montserrat';
+            font-size: 1.6rem;
+            text-decoration: none;    
+            .button-style();
+        }
+    }
+}
+
+.header nav .sideNav:hover{
+    background: #a0979700;
+}
