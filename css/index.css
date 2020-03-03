@@ -304,7 +304,7 @@ h3 {
   display: grid;
   grid-template-rows: repeat(8, 150px) 75px;
   grid-template-columns: repeat(5, 1fr);
-  border-right: 0.5px dashed red;
+  border-right: 0.5px dashed #7161ef;
 }
 @media (max-width: 1000px) {
   .mainContent {
