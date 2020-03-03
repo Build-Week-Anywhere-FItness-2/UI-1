@@ -336,7 +336,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
-.mainContent p {
+.mainContent .intro {
   font-family: 'Montserrat';
   font-weight: normal;
   font-style: normal;
