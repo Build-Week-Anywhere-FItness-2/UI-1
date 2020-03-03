@@ -261,7 +261,35 @@ h3 {
     margin: 0;
   }
 }
+.header2 {
+  height: 60px;
+  background: #7161ef;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.header2 .sideNav {
+  color: #efd9ce;
+  font-family: 'Montserrat';
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 10px 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #a0979726;
+  margin: 0;
+}
+@media (max-width: 1000px) {
+  .header2 .sideNav {
+    margin: 0;
+  }
+}
 .header nav .sideNav:hover {
+  background: #a0979700;
+}
+.header2 nav .sideNav:hover {
   background: #a0979700;
 }
 .mainContent {
