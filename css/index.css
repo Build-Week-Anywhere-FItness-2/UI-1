@@ -567,6 +567,93 @@ h3 {
 .top2Staff .jasmine p {
   font-size: 1.6rem;
 }
+.top2Staff .corey {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.top2Staff .corey .imgContainer2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.top2Staff .corey .imgContainer2 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100px;
+}
+.top2Staff .corey .BEtext {
+  width: calc(100% - 200px);
+  padding: 0 45px;
+}
+.top2Staff .corey p {
+  font-size: 1.6rem;
+}
+.frontEndStaff {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.frontEndStaff .amy {
+  width: 45%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.frontEndStaff .amy .FE_text {
+  width: calc(100% - 200px);
+  padding-left: 15px;
+}
+.frontEndStaff .amy p {
+  font-size: 1.6rem;
+}
+.frontEndStaff .amy .FEimg {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.frontEndStaff .amy .FEimg img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100px;
+}
+.frontEndStaff .shya {
+  width: 45%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.frontEndStaff .shya .FE_1_text {
+  width: calc(100% - 200px);
+  padding-left: 15px;
+}
+.frontEndStaff .shya p {
+  font-size: 1.6rem;
+}
+.frontEndStaff .shya .FEimg1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+.frontEndStaff .shya .FEimg1 img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100px;
+}
 .footer {
   grid-row-start: 9;
   grid-row-end: 10;
