@@ -2,7 +2,7 @@
     width: calc(100% - 150px);
     float: right;
     .gridStart(repeat(10, 1fr), repeat(5, 1fr));
-    border: 1.5px dashed black;
+    border-right: 1.5px dashed black;
     
     .introText {
         .gridAlign(1, 2, 1, 6);
@@ -45,5 +45,27 @@
         }
 
         .gridAlign(2, 5, 5, 6);
+    }
+
+    .centerImg {
+        .gridAlign(5, 8, 1, 4);
+        border: .5px dashed gray;
+        img {
+            padding: 20px 15px 0 15px;
+            width: 100%;
+            max-height: 100%;
+            opacity: .5;
+        }
+    }
+
+    .centerText {
+        .gridAlign(5, 8, 4, 6);
+        p {
+            font-size: 1.6rem;
+            padding: 0 16px;
+            a {
+                color: #5900ff;
+            }
+        }
     }
 }
