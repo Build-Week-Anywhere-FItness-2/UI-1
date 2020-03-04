@@ -16,19 +16,30 @@
             border-radius: 100px;
             @media @tablet {
                 margin-left: 20px;
+                width: 20%;
+                height: 100%;
             }
             img {
                 max-width: 100%;
                 max-height: 100%;
                 border-radius: 100px;
+                @media @tablet {
+                    border-radius: 50%;
+                }
             }
         }
         .PLtext {
             width: calc(100% - 200px);
             padding: 0 45px;
             @media @tablet {
-                padding: 0 0 0 30px;
-                width: calc(100% - 220px);
+                padding: 0 0 0 15px;
+                h1 {
+                    font-size: 2rem;
+                    span{
+                        font-size: 1.6rem;
+                    }
+                }
+                width: calc(80% - 20px);
             }
         }
         p {
@@ -180,13 +191,12 @@
     .adam {
         width: 45%;
         margin-left: 5%;
-        .displayF(row, wrap, flex-start, flex-start);
+        .displayF(row, wrap, flex-start, center);
         @media @tablet {
             width: 100%;
             margin: 0;
             padding-top: 30px;
             border-top: 1px dashed #b79ced;
-            .displayF(row, wrap, flex-start, center);
         }
         .uiText {
             width: calc(100% - 200px);
@@ -223,18 +233,17 @@
     .jeremy {
         width: 45%;
         margin-right: 5%;
-        .displayF(row, wrap, flex-start, flex-start);
+        .displayF(row, wrap, flex-start, center);
         @media @tablet {
             width: 100%;
             margin: 0;
             padding-top: 30px;
-            .displayF(row, wrap, flex-start, center);
         }
         .uiText_1 {
             width: calc(100% - 200px);
             padding-left: 15px;
             @media @tablet {
-                width: calc(100% - 220px);
+                width: calc(80% - 20px);
             }
         }
         p {
@@ -246,12 +255,22 @@
                 color: #957fef;
                 font-size: 2.5rem;
             }
+            @media @tablet{
+                h1 {
+                    font-size: 2rem;
+                    span {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
         .uiImg_1 {
             height: 200px;
             width: 200px;
             border-radius: 100px;
             @media @tablet {
+                width: 20%;
+                height: 100%;
                 margin-left: 20px;
             }
             img {

@@ -574,6 +574,8 @@ h3 {
 @media (max-width: 1000px) {
   .top2Staff .jasmine .imgContainer {
     margin-left: 20px;
+    width: 20%;
+    height: 100%;
   }
 }
 .top2Staff .jasmine .imgContainer img {
@@ -581,14 +583,25 @@ h3 {
   max-height: 100%;
   border-radius: 100px;
 }
+@media (max-width: 1000px) {
+  .top2Staff .jasmine .imgContainer img {
+    border-radius: 50%;
+  }
+}
 .top2Staff .jasmine .PLtext {
   width: calc(100% - 200px);
   padding: 0 45px;
 }
 @media (max-width: 1000px) {
   .top2Staff .jasmine .PLtext {
-    padding: 0 0 0 30px;
-    width: calc(100% - 220px);
+    padding: 0 0 0 15px;
+    width: calc(80% - 20px);
+  }
+  .top2Staff .jasmine .PLtext h1 {
+    font-size: 2rem;
+  }
+  .top2Staff .jasmine .PLtext h1 span {
+    font-size: 1.6rem;
   }
 }
 .top2Staff .jasmine p {
@@ -777,7 +790,7 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 @media (max-width: 1000px) {
   .UIStaff .adam {
@@ -785,11 +798,6 @@ h3 {
     margin: 0;
     padding-top: 30px;
     border-top: 1px dashed #b79ced;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
   }
 }
 .UIStaff .adam .uiText {
@@ -831,18 +839,13 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
 }
 @media (max-width: 1000px) {
   .UIStaff .jeremy {
     width: 100%;
     margin: 0;
     padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
   }
 }
 .UIStaff .jeremy .uiText_1 {
@@ -851,7 +854,7 @@ h3 {
 }
 @media (max-width: 1000px) {
   .UIStaff .jeremy .uiText_1 {
-    width: calc(100% - 220px);
+    width: calc(80% - 20px);
   }
 }
 .UIStaff .jeremy p {
@@ -862,6 +865,14 @@ h3 {
   color: #957fef;
   font-size: 2.5rem;
 }
+@media (max-width: 1000px) {
+  .UIStaff .jeremy h1 h1 {
+    font-size: 2rem;
+  }
+  .UIStaff .jeremy h1 h1 span {
+    font-size: 1.8rem;
+  }
+}
 .UIStaff .jeremy .uiImg_1 {
   height: 200px;
   width: 200px;
@@ -869,6 +880,8 @@ h3 {
 }
 @media (max-width: 1000px) {
   .UIStaff .jeremy .uiImg_1 {
+    width: 20%;
+    height: 100%;
     margin-left: 20px;
   }
 }
