@@ -695,6 +695,7 @@ h3 {
 .frontEndStaff .ashley {
   width: 45%;
   margin-left: 5%;
+  padding-right: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
