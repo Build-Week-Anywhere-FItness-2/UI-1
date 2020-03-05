@@ -358,11 +358,13 @@ h3 {
 .mainContent .introText .textContain {
   width: 100%;
   height: 100%;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 .mainContent .intro {
   font-family: 'Montserrat';
@@ -576,7 +578,7 @@ h3 {
 @media (max-width: 1000px) {
   .phoneImg img {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
   }
 }
 .top2Staff {
